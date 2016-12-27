@@ -12,12 +12,12 @@ Can not sleep due to the noise of the ventilation unit and your windows are alwa
 ## Perilex :
 
 ```
-FEMALE                     MALE
-Ground ------------------- Ground
-L1     ------------------- L1
-L2 (T)       VENTO ------- L2
-L3 (T)       VENTO ------- L3
-N  ----------VENTO ------- N
+FEMALE                          MALE
+Ground ________________________ Ground
+L1 ____________________________ L1
+L2           __ Relay 2 _______ L2
+L3          |__ Relay 3 _______ L3
+N  _________|__ Relay 1 _______ N
 ```
 
 ## Domoticz
