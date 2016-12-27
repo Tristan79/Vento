@@ -77,9 +77,9 @@ If you have a raspberry pi, you can buy another radio (67 cents) and connect it 
  
 ## Showcase
 
-![Showcase1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase1.png)
-![Showcase2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase2.png)
-![Showcase3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase3.png)
+![Showcase1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase1.jpg)
+![Showcase2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase2.jpg)
+![Showcase3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase3.jpg)
 
  
 ## Parts, Shop & Prices 
