@@ -40,6 +40,10 @@ L1 (T)      |__ Relay 3 ___________ L1
 
 ![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
 
+## Raspberry Pi
+
+If you have a raspberry pi, you can buy another radio (67 cents) and connect it using [this info](https://www.domoticz.com/forum/viewtopic.php?t=14365&#p105148) to have a fully function gateway to talk to Vento!
+
 ## [Domoticz](www.domoticz.com)
 
 ![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/domoticz.png)
