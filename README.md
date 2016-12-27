@@ -12,19 +12,6 @@ Can not sleep due to the noise of the ventilation unit and your windows are alwa
 ## Domoticz
 
 ![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/domoticz.png)
-
-## Parts
-
- * Arduino Nano v3 ATmega328
- * Relay 3x (Choose: relay 1x plus relay 2x or relay 4x)
- * Perilex wire
- * Perilex plug male
- * Perilex plug female
- * Radio NRF24L01+
- * Dupond male to male wires
- * USB Power Adapter
- * Micro USB cable
- * Plastic Barrier Terminal Blok
  
 ## Parts, Shop & Prices 
 
