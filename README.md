@@ -7,9 +7,9 @@ Can not sleep due to the noise of the ventilation unit and your windows are alwa
 
 Make sure your unit has the following specification
 
-![Specs1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento2.png)
+![Specs2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento2.png)
 
-![Scheme1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema2.png)
+![Scheme2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema2.png)
 
 You can cut open the existing cable and use that or use plugs!
 
@@ -25,7 +25,7 @@ You can cut open the existing cable and use that or use plugs!
 Power Socket          Ventilation Unit
 Ground ________________________ Ground
 N  ____________ Relay 1 ____________ N
-L3 ____________ Relay 4 ___________ L3
+L3 _____________Relay 4 ___________ L3
 L2 ____________ Relay 3 ___________ L2
 L1 ____________ Relay 2 ___________ L1
 ```
@@ -36,7 +36,7 @@ Make sure your unit has the following specification
 
 ![Specs3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento3.png)
 
-![Scheme2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema3.png)
+![Scheme3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema3.png)
 
 
 You can cut open the existing cable and use that or use plugs!
@@ -101,10 +101,8 @@ Please search yourself for the lowest prices!
 
 Price Range € 6.06 - € 49,32
 
-## Fritzing
-
-[Fritzing](http://fritzing.org)
-[Relay 4 Channel](https://timgolisch.wordpress.com/2015/09/12/fritzing-4-channel-relay-part/) part
+## [Fritzing](http://fritzing.org)
+Fritzing [Relay 4 Channel](https://timgolisch.wordpress.com/2015/09/12/fritzing-4-channel-relay-part/) part
 
 
 
