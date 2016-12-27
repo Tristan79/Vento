@@ -21,6 +21,12 @@ Make sure your unit has the following specification
 
 You can cut open the existing cable and use that or use plugs!
 
+ * Blue: N Power Socket
+ * Brown: L3 Power Socket
+ * Orange: N Ventilation Unit
+ * Yellow: L1 Ventilation Unit
+ * Green: L2 Ventilation Unit
+
 ```
 Power Socket          Ventilation Unit
 Ground ________________________ Ground
