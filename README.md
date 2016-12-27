@@ -30,10 +30,10 @@ You can cut open the existing cable and use that or use plugs!
 ```
 Power Socket          Ventilation Unit
 Ground ________________________ Ground
-N  ____________ Relay 1 _______ N
-L3 _____________Relay 2 _______ L2
-L2          |__ Relay 3 _______ L1
-L1          |__________________ L3
+N  ____________ Relay 1 ____________ N
+L3 ________________________________ L3
+L2 (T)      |___Relay 2 ___________ L2
+L1 (T)      |__ Relay 3 ___________ L1
 ```
 
 ![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
