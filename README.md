@@ -2,6 +2,9 @@
 
 Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit since it is not yours, add Vento! The StorkAir [Mysensors 2.0](https://www.mysensors.org) Controller!
 
+Manufactures: itho, duco, orcon, zehnder, storkair
+
+Price range parts € 6.06 - € 49,32
 
 ## Vento 2
 
@@ -14,20 +17,22 @@ Make sure your unit has the following specification
 You can cut open the existing cable and use that or use plugs!
 
  * Blue: N power socket
- * Brown: L3 power socket
  * Orange: N ventilation unit
- * Yellow: L1 ventilation unit
- * Green: L2 ventilation unit
- * L1 & L2 power socket terminated
- * L3 & Ground directly connected
+ * White: L1 power socket
+ * Green: L1 ventilation unit
+ * Black: L2 power socket
+ * Yellow: L2 ventilation unit
+ * Red: L3 power socket
+ * Grey: L3 ventilation unit
 
+ 
 ```
 Power Socket          Ventilation Unit
 Ground ________________________ Ground
 N  ____________ Relay 1 ____________ N
-L3 _____________Relay 4 ___________ L3
-L2 ____________ Relay 3 ___________ L2
 L1 ____________ Relay 2 ___________ L1
+L2 ____________ Relay 3 ___________ L2
+L3 _____________Relay 4 ___________ L3
 ```
  
 ## Vento 3
