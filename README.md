@@ -11,6 +11,12 @@ Can not sleep due to the noise of the ventilation unit and your windows are alwa
 
 ## Perilex :
 
+
+Make sure your unit has the following specification
+
+![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/ventilation.png)
+
+
 You can cut open the existing cable and use that or use plugs!
 
 ```
