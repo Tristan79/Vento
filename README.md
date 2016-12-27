@@ -1,22 +1,42 @@
 # Vento
 
 Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit since it is not yours, add Vento! The StorkAir [Mysensors 2.0](https://www.mysensors.org) Controller!
-## Prototype
 
 
-## Breadboard
-
-[Fritzing](http://fritzing.org)
-[Relay 4 Channel](https://timgolisch.wordpress.com/2015/09/12/fritzing-4-channel-relay-part/) part
-
-## Perilex :
-
+## Vento 2
 
 Make sure your unit has the following specification
 
-![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/ventilation.png)
+![Specs1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento2.png)
 
-![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/fritzing.png)
+![Scheme1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema2.png)
+
+You can cut open the existing cable and use that or use plugs!
+
+ * Blue: N power socket
+ * Brown: L3 power socket
+ * Orange: N ventilation unit
+ * Yellow: L1 ventilation unit
+ * Green: L2 ventilation unit
+ * L1 & L2 power socket terminated
+ * L3 & Ground directly connected
+
+```
+Power Socket          Ventilation Unit
+Ground ________________________ Ground
+N  ____________ Relay 1 ____________ N
+L3 ____________ Relay 4 ___________ L3
+L2 ____________ Relay 3 ___________ L2
+L1 ____________ Relay 2 ___________ L1
+```
+ 
+## Vento 3
+
+Make sure your unit has the following specification
+
+![Specs3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento3.png)
+
+![Scheme2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema3.png)
 
 
 You can cut open the existing cable and use that or use plugs!
@@ -38,7 +58,9 @@ L2 (T)      |___Relay 2 ___________ L2
 L1 (T)      |__ Relay 3 ___________ L1
 ```
 
-![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
+## Relay
+
+![Relay](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
 
 ## Raspberry Pi
 
@@ -78,6 +100,12 @@ And isolation tape or soldering stuff and screwdrivers :-)
 Please search yourself for the lowest prices!
 
 Price Range € 6.06 - € 49,32
+
+## Fritzing
+
+[Fritzing](http://fritzing.org)
+[Relay 4 Channel](https://timgolisch.wordpress.com/2015/09/12/fritzing-4-channel-relay-part/) part
+
 
 
  
