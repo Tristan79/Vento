@@ -1,8 +1,8 @@
 # Vento
 
-Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit since it is not yours, add Vento! The StorkAir Arduino [Mysensors 2.0](https://www.mysensors.org) Controller!
+Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit because it is not yours, add Vento! The itho, duco, orcon, zehnder, storkair: arduino [mysensors 2.0](https://www.mysensors.org) controller!
 
-Manufactures: itho, duco, orcon, zehnder, storkair
+Manufactures air ventilation unit: itho, duco, orcon, zehnder, storkair or ...
 
 Price range parts € 6.06 - € 49,32
 
@@ -13,7 +13,7 @@ Contact <tristan@monkeycat.nl>!
  * [iBrew](https://github.com/Tristan79/iBrew) iKettle, iKettle 2.0 and Smarter Coffee Interface.
  * [iSamsungTV](https://github.com/Tristan79/iSamsungTV) the command line interface to Samsung TV series C, D, E, F and Blue Ray Disc Players with Smart Hub feature.
  * [Medisana Scale](https://github.com/keptenkurk/BS440) Domoticz bridge (easily adaptible) to Medisana BS440, BS430,... weight scales.
- * [Xiaomi Mi Plant Sensor](https://github.com/open-homeautomation/miflora) with Domoticz [bridge] (easily adaptible) (http://domoticz.com/forum/viewtopic.php?f=56&t=13306&hilit=mi+flora&start=20#p105255)
+ * [Xiaomi Mi Plant Sensor](https://github.com/open-homeautomation/miflora) with Domoticz [bridge](http://domoticz.com/forum/viewtopic.php?f=56&t=13306&hilit=mi+flora&start=20#p105255) (easily adaptible) 
 
 ## Vento 2
 
