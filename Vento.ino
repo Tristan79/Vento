@@ -79,7 +79,7 @@ void before() {
 void sendlevel(int level,bool state) {
   send(MyMessage(level, S_BINARY).set(state==HIGH));
   #ifdef MY_DEBUG
-  Serial.print("Sensor: ");
+  Serial.print("Sending: Sensor: ");
   Serial.print(level);  
   Serial.print(", state: ");
   Serial.println(state);  

@@ -1,6 +1,18 @@
 # Vento
 
 Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit since it is not yours, add Vento! The StorkAir Mysensors Controller!
+## Prototype
+
+
+## Breadboard
+
+[Fritzing](http://fritzing.org)
+[Relay 4 Channel](https://timgolisch.wordpress.com/2015/09/12/fritzing-4-channel-relay-part/) part
+
+## Domoticz
+
+![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/domoticz.png)
+
 ## Parts
 
  * Arduino Nano v3 ATmega328
@@ -12,6 +24,7 @@ Can not sleep due to the noise of the ventilation unit and your windows are alwa
  * Dupond male to male wires
  * USB Power Adapter
  * Micro USB cable
+ * Plastic Barrier Terminal Blok
  
 ## Shop
 
@@ -26,7 +39,8 @@ On moment of writing the cheapest I could find:
  * [Dupond male to male wires](https://nl.aliexpress.com/item/40pcs-lot-10cm-2-54mm-1pin-Female-to-Male-jumper-wire-Dupont-cable/32566136519.html)
  * [USB Power Adapter](https://www.allekabels.nl/usb-lader/4508/1196134/usb-thuislader-1000-ma.html)
  * [Micro USB cable](https://nl.aliexpress.com/item/Micro-USB-Cable-1m-OD-3-5mm-Available-in-Black-or-White/32599608580.html)
-
+ * [Plastic Barrier Terminal Blok](https://nl.aliexpress.com/item/10A-2-Position-Wire-Connector-Plastic-Barrier-Terminal-Block-High-Quality/32714811508.html)
+ 
 ### My Bill
  * € 3.51 Box 
  * € 7.28 Perilex male and wire 
@@ -37,13 +51,10 @@ On moment of writing the cheapest I could find:
  * € 0.67 Radio NRF24L01+
  * € 0.59 Dupond male to male wires
  * € 7.79 Power adapter (do not trust chinese adapters :-)
- * € 0.62 Micro USB cablexx
+ * € 0.62 Micro USB cable
+ * € 0.66 Plastic Barrier Terminal Blok
  
-Total € 48,22
+Total € 48,88
 
-## Prototype
-
-
-##
 
  
