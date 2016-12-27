@@ -9,6 +9,17 @@ Can not sleep due to the noise of the ventilation unit and your windows are alwa
 [Fritzing](http://fritzing.org)
 [Relay 4 Channel](https://timgolisch.wordpress.com/2015/09/12/fritzing-4-channel-relay-part/) part
 
+## Perilex :
+
+```
+FEMALE                     MALE
+Ground ------------------- Ground
+L1     ------------------- L1
+L2 (T)       VENTO ------- L2
+L3 (T)       VENTO ------- L3
+N  ----------VENTO ------- N
+```
+
 ## Domoticz
 
 ![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/domoticz.png)
@@ -29,6 +40,8 @@ Prices are snapshot 27 december 2016:
  * € 0.66 [Plastic Barrier Terminal Blok](https://nl.aliexpress.com/item/10A-2-Position-Wire-Connector-Plastic-Barrier-Terminal-Block-High-Quality/32714811508.html)
  * € 8.50 Delivery cost bengshop 
  * € 3,95 Delivery cost allekabels
+ 
+Please search yourself for the lowest prices!
  
 Total € 52,83
 
