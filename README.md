@@ -1,6 +1,6 @@
 # Vento
 
-Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit since it is not yours, add Vento! The StorkAir [Mysensors 2.0](https://www.mysensors.org) Controller!
+Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit since it is not yours, add Vento! The StorkAir Arduino [Mysensors 2.0](https://www.mysensors.org) Controller!
 
 Manufactures: itho, duco, orcon, zehnder, storkair
 
@@ -74,6 +74,13 @@ If you have a raspberry pi, you can buy another radio (67 cents) and connect it 
 ## [Domoticz](www.domoticz.com)
 
 ![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/domoticz.png)
+ 
+## Showcase
+
+![Showcase1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase1.png)
+![Showcase2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase2.png)
+![Showcase3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase3.png)
+
  
 ## Parts, Shop & Prices 
 
