@@ -16,6 +16,8 @@ Make sure your unit has the following specification
 
 ![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/ventilation.png)
 
+![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/fritzing.png)
+
 
 You can cut open the existing cable and use that or use plugs!
 
@@ -27,6 +29,8 @@ L3 _____________Relay 2 _______ L2
 L2          |__ Relay 3 _______ L1
 L1          |__________________ L3
 ```
+
+![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
 
 ## Domoticz
 
