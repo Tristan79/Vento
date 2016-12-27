@@ -1,6 +1,6 @@
 # Vento
 
-Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit since it is not yours, add Vento! The StorkAir Mysensors Controller!
+Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit since it is not yours, add Vento! The StorkAir [Mysensors 2.0](https://www.mysensors.org) Controller!
 ## Prototype
 
 
@@ -40,7 +40,7 @@ L1 (T)      |__ Relay 3 ___________ L1
 
 ![Specs](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
 
-## Domoticz
+## [Domoticz](www.domoticz.com)
 
 ![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/domoticz.png)
  
