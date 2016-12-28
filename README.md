@@ -25,7 +25,7 @@ Make sure your unit has the following specification
 
 ![Scheme2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema2.png)
 
-You can cut open the existing cable and use that or use plugs!
+You can cut open the existing cable and use that! Or use extra perilex plugs!
 
  * Blue: N power socket
  * Orange: N ventilation unit
@@ -55,7 +55,7 @@ Make sure your unit has the following specification
 ![Scheme3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema3.png)
 
 
-You can cut open the existing cable and use that or use plugs!
+You can cut open the existing cable and use that! Or use extra perilex plugs!
 
  * Blue: N power socket
  * Brown: L3 power socket
@@ -139,7 +139,7 @@ And isolation tape or soldering stuff and screwdrivers :-)
 
 Please search yourself for the lowest prices!
 
-Price Range € 6.06 - € 50,33
+Price Range € 6.43 - € 50,33
 
 ## [Fritzing](http://fritzing.org)
 Fritzing [Relay 4 Channel](https://timgolisch.wordpress.com/2015/09/12/fritzing-4-channel-relay-part/) part
