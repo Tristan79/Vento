@@ -1,10 +1,12 @@
 # Vento
 
-Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit because it is not yours, add Vento! The itho, duco, orcon, zehnder, storkair: arduino [mysensors 2.0](https://www.mysensors.org) controller!
+Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit because it is not yours, add Vento! The itho, duco, orcon, zehnder, storkair: arduino [mysensors 2.0](https://www.mysensors.org) perilex ventilation controller!
 
 Manufactures air ventilation unit: itho, duco, orcon, zehnder, storkair or ...
 
 Price range parts € 6.06 - € 49,96
+
+Choose between Vento 2 and Vento 3 depending on your model.
 
 Contact <tristan@monkeycat.nl>!
 
@@ -86,10 +88,24 @@ If you have a raspberry pi, you can buy another radio (67 cents) and connect it 
  
 ## Showcase
 
+Prototype!?
+
 ![Showcase1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase1.jpg)
+
+The unit...
+
 ![Showcase2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase2.jpg)
+
+All connected!
+
 ![Showcase3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase3.jpg)
+
+Assembled!
+
 ![Showcase4](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase4.jpg)
+
+Photo's in the dark such that you really see the lights of level1, Level2 and Level3
+
 ![Level1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/level1.jpg)![Level2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/level2.jpg)![Level3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/level3.jpg)
 
  
