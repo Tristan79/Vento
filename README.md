@@ -1,12 +1,15 @@
 # Vento
 
-Can not sleep due to the noise of the ventilation unit and your windows are always open? Can not replace the unit because it is not yours, add Vento! The itho, duco, orcon, zehnder, storkair: arduino [mysensors 2.0](https://www.mysensors.org) perilex ventilation controller!
+Wanna control you ventilation unit from your computer, tablet or phone? Can't sleep? Cuz the noise of the ventilation unit is too loud! Can't replace the unit because it is not yours, add Vento! The itho, duco, orcon, zehnder, storkair: Arduino [MySensors 2.0](https://www.mysensors.org) perilex ventilation controller!
 
 Manufactures air ventilation unit: itho, duco, orcon, zehnder, storkair or ...
 
 Price range parts: essential € 6.43, full blown € 50,33
 
 Choose between Vento 2 and Vento 3 depending on your model.
+
+You need a MySensors gateway and a Smart Home Controller supporting MySensors like [Domoticz](www.domoticz.com)
+Luckily if you have a raspberry Pi a gateway costs just 67 cents extra! [See this](https://www.domoticz.com/forum/viewtopic.php?t=14365&#p105148)
 
 Contact <tristan@monkeycat.nl>!
 
@@ -78,9 +81,6 @@ L1 (T)      |__ Relay 3 ___________ L1
 
 ![Relay](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
 
-## Raspberry Pi
-
-If you have a raspberry pi, you can buy another radio (67 cents) and connect it using [this info](https://www.domoticz.com/forum/viewtopic.php?t=14365&#p105148) to have a fully function gateway to talk to Vento!
 
 ## [Domoticz](www.domoticz.com)
 
