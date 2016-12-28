@@ -20,9 +20,9 @@ Contact <tristan@monkeycat.nl>!
 
 ## Vento!
 
-![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/domoticz.png)
+![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/domoticz.png)
 
-![Scheme3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema3.png)
+![Scheme3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/schema.png)
 
 Choose between Vento L1 and Vento L3 depending on your model.
 
@@ -30,7 +30,7 @@ Choose between Vento L1 and Vento L3 depending on your model.
 
 __Make sure your unit has the following specification__
 
-![Specs2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento2.png)
+![Specs2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/ventoL1.png)
 
 You can cut open the existing cable and use that! Or use extra perilex plugs!
 
@@ -54,7 +54,7 @@ L3 (T)      |__ Relay 3 ___________ L3
 ## Vento L3
 __Make sure your unit has the following specification__
 
-![Specs3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento3.png)
+![Specs3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/ventoL3.png)
 
 You can cut open the existing cable and use that! Or use extra perilex plugs!
 
@@ -77,7 +77,7 @@ L1 (T)      |__ Relay 3 ___________ L1
 
 ## Relay
 
-![Relay](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
+![Relay](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/relay.png)
 
 ## [Domoticz](www.domoticz.com)
 
@@ -86,23 +86,23 @@ L1 (T)      |__ Relay 3 ___________ L1
 
 Prototype!?
 
-![Showcase1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase1.jpg)
+![Showcase1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/showcase/1.jpg)
 
 The unit...
 
-![Showcase2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase2.jpg)
+![Showcase2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/showcase/2.jpg)
 
 All connected!
 
-![Showcase3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase3.jpg)
+![Showcase3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/showcase/3.jpg)
 
 Assembled!
 
-![Showcase4](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase4.jpg)
+![Showcase4](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/showcase/4.jpg)
 
 Photo's in the dark such that you really see the lights of Level 1, Level 2 and Level 3
 
-![Level1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/level1.jpg)![Level2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/level2.jpg)![Level3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/level3.jpg)
+![Level1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/level/1.jpg)![Level2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/level/2.jpg)![Level3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/level/3.jpg)
 
  
 ## Parts, Shop & Prices 
