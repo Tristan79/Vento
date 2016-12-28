@@ -1,3 +1,5 @@
+// Vento (c) 2017 Tristan Crispijn
+// See LICENSE!
 
 #define MY_DEBUG
 #define MY_RADIO_NRF24
@@ -7,12 +9,12 @@
 
 #define RELAY_OFF 1
 #define RELAY_ON 0
- 
-#define RELAY_POWER 3  
-#define RELAY_LEVEL2 4 
-#define RELAY_LEVEL3 5  
 
-#define MYSENSOR_POWER 1 
+#define RELAY_POWER 3
+#define RELAY_LEVEL2 4
+#define RELAY_LEVEL3 5
+
+#define MYSENSOR_POWER 1
 #define MYSENSOR_LEVEL1 2
 #define MYSENSOR_LEVEL2 3
 #define MYSENSOR_LEVEL3 4
@@ -26,7 +28,7 @@
 #define MEM_POWER 1
 #define MEM_LEVEL 2
 
-// Delay for switching back on when level already selected 
+// Delay for switching back on when received off when level already selected
 #define DELAY 500
 
 bool power;
@@ -50,60 +52,60 @@ void debug() {
 }
 #endif
 
-void before() { 
-    // Load power state and set relay
-    power =  loadState(MEM_POWER);
-    pinMode(RELAY_POWER, OUTPUT);
-    digitalWrite(RELAY_POWER, power ? RELAY_ON : RELAY_OFF);
+void before() {
+  // Load power state and set relay
+  power =  loadState(MEM_POWER);
+  pinMode(RELAY_POWER, OUTPUT);
+  digitalWrite(RELAY_POWER, power ? RELAY_ON : RELAY_OFF);
 
-    // Disable Level1 & Level2
-    pinMode(RELAY_LEVEL2, OUTPUT);
-    digitalWrite(RELAY_LEVEL2, RELAY_OFF);
-    pinMode(RELAY_LEVEL3, OUTPUT);
-    digitalWrite(RELAY_LEVEL3, RELAY_OFF);
+  // Disable Level1 & Level2
+  pinMode(RELAY_LEVEL2, OUTPUT);
+  digitalWrite(RELAY_LEVEL2, RELAY_OFF);
+  pinMode(RELAY_LEVEL3, OUTPUT);
+  digitalWrite(RELAY_LEVEL3, RELAY_OFF);
 
-    // Load levels and set relay if power
-    level =  loadState(MEM_LEVEL);
-    if (level != LEVEL2 and level != LEVEL3) {
-      level1 = true;
-      level = LEVEL1;
-    }
-    if (level == LEVEL2) {
-        level2 = true;
-        if (power) digitalWrite(RELAY_LEVEL2, RELAY_ON);
-    }
-    if (level == LEVEL3) {
-        level3 = true;
-        if (power) digitalWrite(RELAY_LEVEL3, RELAY_ON); 
-    }
-    #ifdef MY_DEBUG
-    debug();
-    #endif
+  // Load levels and set relay if power
+  level =  loadState(MEM_LEVEL);
+  if (level != LEVEL2 and level != LEVEL3) {
+    level1 = true;
+    level = LEVEL1;
+  }
+  if (level == LEVEL2) {
+    level2 = true;
+    if (power) digitalWrite(RELAY_LEVEL2, RELAY_ON);
+  }
+  if (level == LEVEL3) {
+    level3 = true;
+    if (power) digitalWrite(RELAY_LEVEL3, RELAY_ON);
+  }
+#ifdef MY_DEBUG
+  debug();
+#endif
 }
 
-void sendlevel(int level,bool state) {
-  send(MyMessage(level, S_BINARY).set(state==HIGH));
-  #ifdef MY_DEBUG
+void sendlevel(int level, bool state) {
+  send(MyMessage(level, S_BINARY).set(state == HIGH));
+#ifdef MY_DEBUG
   Serial.print("Sending: Sensor: ");
-  Serial.print(level);  
+  Serial.print(level);
   Serial.print(", state: ");
-  Serial.println(state);  
-  #endif
+  Serial.println(state);
+#endif
 }
 
 void sendpower() {
-  send(MyMessage(MYSENSOR_POWER, S_BINARY).set(power==HIGH));
+  send(MyMessage(MYSENSOR_POWER, S_BINARY).set(power == HIGH));
 }
 
 void setup() {
-  sendlevel(MYSENSOR_LEVEL1,level1);
-  sendlevel(MYSENSOR_LEVEL2,level2);
-  sendlevel(MYSENSOR_LEVEL3,level3);
+  sendlevel(MYSENSOR_LEVEL1, level1);
+  sendlevel(MYSENSOR_LEVEL2, level2);
+  sendlevel(MYSENSOR_LEVEL3, level3);
   sendpower();
 }
 
 void presentation() {
-  sendSketchInfo("Vento Switch", "0.3");
+  sendSketchInfo("Vento", "0.3.0");
   present(MYSENSOR_POWER, S_BINARY);
   present(MYSENSOR_LEVEL1, S_BINARY);
   present(MYSENSOR_LEVEL2, S_BINARY);
@@ -131,7 +133,7 @@ void receive(const MyMessage &message) {
         if (level3) digitalWrite(RELAY_LEVEL3, RELAY_ON);
       } else {
         if (level2) digitalWrite(RELAY_LEVEL2, RELAY_OFF);
-        if (level3) digitalWrite(RELAY_LEVEL3, RELAY_OFF);        
+        if (level3) digitalWrite(RELAY_LEVEL3, RELAY_OFF);
       }
     }
 
@@ -139,12 +141,12 @@ void receive(const MyMessage &message) {
       debug();
       if (level2) {
         level2 = false;
-        sendlevel(MYSENSOR_LEVEL2,level2);
+        sendlevel(MYSENSOR_LEVEL2, level2);
         if (power) digitalWrite(RELAY_LEVEL2, RELAY_OFF);
       }
       if (level3) {
         level3 = false;
-        sendlevel(MYSENSOR_LEVEL3,level3);
+        sendlevel(MYSENSOR_LEVEL3, level3);
         if (power) digitalWrite(RELAY_LEVEL3, RELAY_OFF);
       }
       if (not level1 || (level1 && MYSENSOR_OFF == message.getBool())) {
@@ -152,7 +154,7 @@ void receive(const MyMessage &message) {
           delay(DELAY);
         }
         level1 = true;
-        sendlevel(message.sensor,level1);
+        sendlevel(message.sensor, level1);
       }
       if (level != LEVEL1) {
         level = LEVEL1;
@@ -164,11 +166,11 @@ void receive(const MyMessage &message) {
       debug();
       if (level1) {
         level1 = false;
-        sendlevel(MYSENSOR_LEVEL1,level1);
+        sendlevel(MYSENSOR_LEVEL1, level1);
       }
       if (level3) {
         level3 = false;
-        sendlevel(MYSENSOR_LEVEL3,level3);
+        sendlevel(MYSENSOR_LEVEL3, level3);
         if (power) digitalWrite(RELAY_LEVEL3, RELAY_OFF);
       }
       if (not level2 || (level2 && (MYSENSOR_OFF == message.getBool()))) {
@@ -176,7 +178,7 @@ void receive(const MyMessage &message) {
           delay(DELAY);
         }
         level2 = true;
-        sendlevel(message.sensor,level2);
+        sendlevel(message.sensor, level2);
         if (power) digitalWrite(RELAY_LEVEL2, RELAY_ON);
       }
       if (level != LEVEL2) {
@@ -189,11 +191,11 @@ void receive(const MyMessage &message) {
       debug();
       if (level1) {
         level1 = false;
-        sendlevel(MYSENSOR_LEVEL1,level1);
+        sendlevel(MYSENSOR_LEVEL1, level1);
       }
       if (level2) {
         level2 = false;
-        sendlevel(MYSENSOR_LEVEL2,level2);
+        sendlevel(MYSENSOR_LEVEL2, level2);
         if (power) digitalWrite(RELAY_LEVEL2, RELAY_OFF);
       }
       if (not level3 || (level3 && MYSENSOR_OFF == message.getBool())) {
@@ -201,7 +203,7 @@ void receive(const MyMessage &message) {
           delay(DELAY);
         }
         level3 = true;
-        sendlevel(message.sensor,level3);
+        sendlevel(message.sensor, level3);
         if (power) digitalWrite(RELAY_LEVEL3, RELAY_ON);
       }
       if (level != LEVEL3) {
@@ -210,12 +212,12 @@ void receive(const MyMessage &message) {
       }
     }
 
-    #ifdef MY_DEBUG
+#ifdef MY_DEBUG
     Serial.print("Incoming change for sensor:");
     Serial.print(message.sensor);
     Serial.print(", New status: ");
     Serial.println(message.getBool());
     debug();
-    #endif 
+#endif
   }
 }
