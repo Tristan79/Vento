@@ -16,6 +16,8 @@
 #define MYSENSOR_LEVEL1 2
 #define MYSENSOR_LEVEL2 3
 #define MYSENSOR_LEVEL3 4
+#define MYSENSOR_OFF 0
+#define MYSENSOR_ON 1
 
 #define LEVEL1 1
 #define LEVEL2 2
@@ -23,6 +25,9 @@
 
 #define MEM_POWER 1
 #define MEM_LEVEL 2
+
+// Delay for switching back on when level already selected 
+#define DELAY 500
 
 bool power;
 int level;
@@ -142,7 +147,10 @@ void receive(const MyMessage &message) {
         sendlevel(MYSENSOR_LEVEL3,level3);
         if (power) digitalWrite(RELAY_LEVEL3, RELAY_OFF);
       }
-      if (not level1) {
+      if (not level1 || (level1 && MYSENSOR_OFF == message.getBool())) {
+        if (MYSENSOR_OFF == message.getBool()) {
+          delay(DELAY);
+        }
         level1 = true;
         sendlevel(message.sensor,level1);
       }
@@ -163,7 +171,10 @@ void receive(const MyMessage &message) {
         sendlevel(MYSENSOR_LEVEL3,level3);
         if (power) digitalWrite(RELAY_LEVEL3, RELAY_OFF);
       }
-      if (not level2) {
+      if (not level2 || (level2 && (MYSENSOR_OFF == message.getBool()))) {
+        if (MYSENSOR_OFF == message.getBool()) {
+          delay(DELAY);
+        }
         level2 = true;
         sendlevel(message.sensor,level2);
         if (power) digitalWrite(RELAY_LEVEL2, RELAY_ON);
@@ -185,7 +196,10 @@ void receive(const MyMessage &message) {
         sendlevel(MYSENSOR_LEVEL2,level2);
         if (power) digitalWrite(RELAY_LEVEL2, RELAY_OFF);
       }
-      if (not level3) {
+      if (not level3 || (level3 && MYSENSOR_OFF == message.getBool())) {
+        if (MYSENSOR_OFF == message.getBool()) {
+          delay(DELAY);
+        }
         level3 = true;
         sendlevel(message.sensor,level3);
         if (power) digitalWrite(RELAY_LEVEL3, RELAY_ON);
@@ -200,6 +214,7 @@ void receive(const MyMessage &message) {
     Serial.print("Incoming change for sensor:");
     Serial.print(message.sensor);
     Serial.print(", New status: ");
+    Serial.println(message.getBool());
     debug();
     #endif 
   }
