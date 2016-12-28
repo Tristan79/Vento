@@ -1,8 +1,8 @@
 # Vento
 
-Wanna control you ventilation unit from your computer, tablet or phone? Can't sleep? Cuz the noise of the ventilation unit is too loud! Can't replace the unit because it is not yours, add Vento! The itho, duco, orcon, zehnder, storkair: Arduino [MySensors 2.0](https://www.mysensors.org) perilex ventilation controller!
+Wanna control you ventilation unit from your computer, tablet or phone? Can't sleep? Cuz the noise of the ventilation unit is too loud! Can't replace the unit because it is not yours, add Vento! The itho, duco, orcon, zehnder, storkair, berschenhoek: Arduino [MySensors 2.0](https://www.mysensors.org) perilex ventilation controller!
 
-Manufactures air ventilation unit: itho, duco, orcon, zehnder, storkair or ...
+Manufactures air ventilation unit: itho, duco, orcon, zehnder, storkair, berschenhoek or ...
 
 Price range parts: essential € 5 ~ full blown € 50
 
