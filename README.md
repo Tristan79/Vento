@@ -18,7 +18,9 @@ Contact <tristan@monkeycat.nl>!
  * [Medisana Scale](https://github.com/keptenkurk/BS440) Domoticz bridge (easily adaptible) to Medisana BS440, BS430,... weight scales.
  * [Xiaomi Mi Plant Sensor](https://github.com/open-homeautomation/miflora) with Domoticz [bridge](http://domoticz.com/forum/viewtopic.php?f=56&t=13306&hilit=mi+flora&start=20#p105255) (easily adaptible) 
 
-## Vento
+## Vento!
+
+![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/domoticz.png)
 
 ![Scheme3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema3.png)
 
@@ -27,6 +29,7 @@ Choose between Vento L1 and Vento L3 depending on your model.
 ## Vento L1
 
 __Make sure your unit has the following specification__
+
 ![Specs2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento2.png)
 
 You can cut open the existing cable and use that! Or use extra perilex plugs!
@@ -72,38 +75,12 @@ L2 (T)      |___Relay 2 ___________ L2
 L1 (T)      |__ Relay 3 ___________ L1
 ```
 
-## Vento Test
-
-![Scheme2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema2.png)
-
-You can cut open the existing cable and use that! Or use extra perilex plugs!
-
- * Blue: N power socket
- * Orange: N ventilation unit
- * White: L1 power socket
- * Green: L1 ventilation unit
- * Black: L2 power socket
- * Yellow: L2 ventilation unit
- * Red: L3 power socket
- * Grey: L3 ventilation unit
-
- 
-```
-Power Socket          Ventilation Unit
-Ground ________________________ Ground
-N  ____________ Relay 1 ____________ N
-L1 ____________ Relay 2 ___________ L1
-L2 ____________ Relay 3 ___________ L2
-L3 _____________Relay 4 ___________ L3
-```
-
 ## Relay
 
 ![Relay](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
 
 ## [Domoticz](www.domoticz.com)
 
-![Domoticz](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/domoticz.png)
  
 ## Showcase
 
