@@ -4,7 +4,7 @@ Can not sleep due to the noise of the ventilation unit and your windows are alwa
 
 Manufactures air ventilation unit: itho, duco, orcon, zehnder, storkair or ...
 
-Price range parts € 6.06 - € 49,32
+Price range parts € 6.06 - € 49,96
 
 Contact <tristan@monkeycat.nl>!
 
@@ -113,14 +113,14 @@ __Perilex & Box__
 __Power__
  * € 7.79 [USB Power Adapter](https://www.allekabels.nl/usb-lader/4508/1196134/usb-thuislader-1000-ma.html)
  * € 3,95 Delivery cost allekabels
- * € 0.62 [Micro USB cable](https://nl.aliexpress.com/item/Micro-USB-Cable-1m-OD-3-5mm-Available-in-Black-or-White/32599608580.html)
+ * € 1.26 [Mini USB cable](https://nl.aliexpress.com/item/White-1m-MiNi-USB-to-USB-2-0-Cable-Data-Sync-Charge-Cable-for-MP3-MP4/32622398168.html)
  * Total € 12,36
  
 And isolation tape or soldering stuff and screwdrivers :-)
 
 Please search yourself for the lowest prices!
 
-Price Range € 6.06 - € 49,32
+Price Range € 6.06 - € 49,96
 
 ## [Fritzing](http://fritzing.org)
 Fritzing [Relay 4 Channel](https://timgolisch.wordpress.com/2015/09/12/fritzing-4-channel-relay-part/) part
