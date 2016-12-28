@@ -4,7 +4,7 @@ Can not sleep due to the noise of the ventilation unit and your windows are alwa
 
 Manufactures air ventilation unit: itho, duco, orcon, zehnder, storkair or ...
 
-Price range parts € 6.06 - € 49,96
+Price range parts: essential € 6.43, full blown € 50,33
 
 Choose between Vento 2 and Vento 3 depending on your model.
 
@@ -119,7 +119,8 @@ __Essential__
  * € 0.67 [Radio NRF24L01+](https://nl.aliexpress.com/item/1pcs-lot-Black-nrf24l01-wireless-module-24l01-2-4g-wireless-module-black-diamond-free-shipping/32649100793.html)
  * € 0.59 [Dupond male to male wires](https://nl.aliexpress.com/item/40pcs-lot-10cm-2-54mm-1pin-Female-to-Male-jumper-wire-Dupont-cable/32566136519.html)
  * € 0.66 [Plastic Barrier Terminal Blok](https://nl.aliexpress.com/item/10A-2-Position-Wire-Connector-Plastic-Barrier-Terminal-Block-High-Quality/32714811508.html)
- * € Total 6,06
+ * € 0.37 [4.7µ - 47µF Capacitor](https://nl.aliexpress.com/item/Free-shipping-100pcs-47UF-50V-Electrolytic-Capacitor-50V-47UF-Aluminum-Electrolytic-Capacitor-6X12mm/32316099910.html)
+ * € Total 6,43
  
 __Perilex & Box__
  * € 7.28 [Perilex plug male & wire](http://www.bengshop.nl/detailitem.php?articletext=RATIO+PERILEX+AANSLUITSNOER+2M+6A+GROEN+&sess=&shop=0&lang=nl&art_id=13006284)
@@ -138,7 +139,7 @@ And isolation tape or soldering stuff and screwdrivers :-)
 
 Please search yourself for the lowest prices!
 
-Price Range € 6.06 - € 49,96
+Price Range € 6.06 - € 50,33
 
 ## [Fritzing](http://fritzing.org)
 Fritzing [Relay 4 Channel](https://timgolisch.wordpress.com/2015/09/12/fritzing-4-channel-relay-part/) part
