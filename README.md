@@ -6,8 +6,6 @@ Manufactures air ventilation unit: itho, duco, orcon, zehnder, storkair or ...
 
 Price range parts: essential € 6.43, full blown € 50,33
 
-Choose between Vento 2 and Vento 3 depending on your model.
-
 You need a MySensors gateway and a Smart Home Controller supporting MySensors like [Domoticz](www.domoticz.com)
 Luckily if you have a raspberry Pi a gateway costs just 67 cents extra! [See this](https://www.domoticz.com/forum/viewtopic.php?t=14365&#p105148)
 
@@ -20,11 +18,61 @@ Contact <tristan@monkeycat.nl>!
  * [Medisana Scale](https://github.com/keptenkurk/BS440) Domoticz bridge (easily adaptible) to Medisana BS440, BS430,... weight scales.
  * [Xiaomi Mi Plant Sensor](https://github.com/open-homeautomation/miflora) with Domoticz [bridge](http://domoticz.com/forum/viewtopic.php?f=56&t=13306&hilit=mi+flora&start=20#p105255) (easily adaptible) 
 
-## Vento 2
+## Vento
 
-Make sure your unit has the following specification
+![Scheme3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema3.png)
 
+Choose between Vento L1 and Vento L3 depending on your model.
+
+## Vento L1
+
+__Make sure your unit has the following specification__
 ![Specs2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento2.png)
+
+You can cut open the existing cable and use that! Or use extra perilex plugs!
+
+ * Blue: N power socket
+ * Brown: L1 power socket
+ * Orange: N ventilation unit
+ * Yellow: L3 ventilation unit
+ * Green: L2 ventilation unit
+ * L2 & L3 power socket terminated
+ * L1 & Ground directly connected
+
+```
+Power Socket          Ventilation Unit
+Ground ________________________ Ground
+N  ____________ Relay 1 ____________ N
+L1 ________________________________ L1
+L2 (T)      |___Relay 2 ___________ L2
+L3 (T)      |__ Relay 3 ___________ L3
+```
+
+## Vento L3
+__Make sure your unit has the following specification__
+
+![Specs3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento3.png)
+
+You can cut open the existing cable and use that! Or use extra perilex plugs!
+
+ * Blue: N power socket
+ * Brown: L3 power socket
+ * Orange: N ventilation unit
+ * Yellow: L1 ventilation unit
+ * Green: L2 ventilation unit
+ * L1 & L2 power socket terminated
+ * L3 & Ground directly connected
+
+```
+Power Socket          Ventilation Unit
+Ground ________________________ Ground
+N  ____________ Relay 1 ____________ N
+L3 ________________________________ L3
+L2 (T)      |___Relay 2 ___________ L2
+L1 (T)      |__ Relay 3 ___________ L1
+```
+
+## Vento Test
 
 ![Scheme2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema2.png)
 
@@ -48,39 +96,10 @@ L1 ____________ Relay 2 ___________ L1
 L2 ____________ Relay 3 ___________ L2
 L3 _____________Relay 4 ___________ L3
 ```
- 
-## Vento 3
-
-Make sure your unit has the following specification
-
-![Specs3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/vento3.png)
-
-![Scheme3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/schema3.png)
-
-
-You can cut open the existing cable and use that! Or use extra perilex plugs!
-
- * Blue: N power socket
- * Brown: L3 power socket
- * Orange: N ventilation unit
- * Yellow: L1 ventilation unit
- * Green: L2 ventilation unit
- * L1 & L2 power socket terminated
- * L3 & Ground directly connected
-
-```
-Power Socket          Ventilation Unit
-Ground ________________________ Ground
-N  ____________ Relay 1 ____________ N
-L3 ________________________________ L3
-L2 (T)      |___Relay 2 ___________ L2
-L1 (T)      |__ Relay 3 ___________ L1
-```
 
 ## Relay
 
 ![Relay](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/relay.png)
-
 
 ## [Domoticz](www.domoticz.com)
 
