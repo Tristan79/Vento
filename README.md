@@ -4,7 +4,7 @@ Wanna control you ventilation unit from your computer, tablet or phone? Can't sl
 
 Manufactures air ventilation unit: itho, duco, orcon, zehnder, storkair or ...
 
-Price range parts: essential € 6.43, full blown € 50,33
+Price range parts: essential € 5 ~ full blown € 50
 
 You need a MySensors gateway and a Smart Home Controller supporting MySensors like [Domoticz](www.domoticz.com)
 Luckily if you have a raspberry Pi a gateway costs just 67 cents extra! [See this](https://www.domoticz.com/forum/viewtopic.php?t=14365&#p105148)
@@ -100,7 +100,7 @@ Assembled!
 
 ![Showcase4](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/showcase4.jpg)
 
-Photo's in the dark such that you really see the lights of level1, Level2 and Level3
+Photo's in the dark such that you really see the lights of Level 1, Level 2 and Level 3
 
 ![Level1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/level1.jpg)![Level2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/level2.jpg)![Level3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/level3.jpg)
 
