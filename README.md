@@ -11,6 +11,10 @@ Luckily if you have a raspberry Pi a gateway costs just 67 cents extra! [See thi
 
 Contact <tristan@monkeycat.nl>!
 
+## WARNING!
+
+READ THE LICENSE FIRST! BE CAREFULL! 
+
 ## Other Nice Smarthome stuff!!
 
  * [iBrew](https://github.com/Tristan79/iBrew) iKettle, iKettle 2.0 and Smarter Coffee Interface
@@ -105,6 +109,9 @@ Photo's in the dark such that you really see the lights of Level 1, Level 2 and 
 
 ![Level1](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/level/1.jpg)![Level2](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/level/2.jpg)![Level3](https://raw.githubusercontent.com/Tristan79/Vento/master/resources/images/level/3.jpg)
 
+## WARNING
+
+Make sure you seperate the 5v wires and circuits from the 220v wires! That if one comes loose it will not touch any 5v stuff and burn the unit! I glued in a plastic seperator dividing the high wires and the rest of the stuff... 
  
 ## Parts, Shop & Prices 
 
