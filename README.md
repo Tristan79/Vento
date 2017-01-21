@@ -13,10 +13,11 @@ Contact <tristan@monkeycat.nl>!
 
 ## Other Nice Smarthome stuff!!
 
- * [iBrew](https://github.com/Tristan79/iBrew) iKettle, iKettle 2.0 and Smarter Coffee Interface.
+ * [iBrew](https://github.com/Tristan79/iBrew) iKettle, iKettle 2.0 and Smarter Coffee Interface
  * [iSamsungTV](https://github.com/Tristan79/iSamsungTV) the command line interface to Samsung TV series C, D, E, F and Blue Ray Disc Players with Smart Hub feature.
- * [Medisana Scale](https://github.com/keptenkurk/BS440) Domoticz bridge (easily adaptible) to Medisana BS440, BS430,... weight scales.
- * [Xiaomi Mi Plant Sensor](https://github.com/open-homeautomation/miflora) with Domoticz [bridge](http://domoticz.com/forum/viewtopic.php?f=56&t=13306&hilit=mi+flora&start=20#p105255) (easily adaptible) 
+ * [Medisana Scale](https://github.com/keptenkurk/BS440) [Domoticz](http://domoticz.com/) bridge to Medisana BS440, BS430,... weight scales.
+ * [Xiaomi Mi Plant Sensor](https://github.com/Tristan79/miflora) with [Domoticz](http://domoticz.com/) bridge
+ * [HUE Hack](https://github.com/Tristan79/HUEHack) Soft Link Button for HUE Bridge (& rooting the bridge & enable WiFi!)
 
 ## Vento!
 

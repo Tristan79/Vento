@@ -1,7 +1,7 @@
 // Vento (c) 2017 Tristan Crispijn
 // See LICENSE!
 
-#define MY_DEBUG
+//#define MY_DEBUG
 #define MY_RADIO_NRF24
 #define MY_REPEATER_FEATURE
 
